@@ -8,8 +8,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Welcome to BitVision</title>
   <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 <body id="home" style="margin-top:70px;">
 
@@ -32,6 +34,9 @@
           </li>
           <li class="nav-item pl-2">
             <a href="#howto" class="nav-link">How To</a>
+          </li>
+          <li class="nav-item pl-2">
+            <a href="#login" class="nav-link">Login</a>
           </li>
         </ul>
       </div>
@@ -56,7 +61,7 @@
 
           </div>
           <!--Login Form-->
-          <div class="col-lg-4">
+          <div class="col-lg-4 d-none d-lg-block">
             <div class="card bg-primary text-center card-form">
               <div class="card-body">
                 <h3>Go To Vision</h3>
@@ -80,10 +85,10 @@
         <div class="row mt-5">
           <div class="col-lg-12 text-center">
 
-            <h1 class="lead d-none d-sm-block">Total number of Vision :
-              <font class="vision_count">320,098</font>
+            <h1 class="lead">Total number of Vision :
+              <font class="vision_count">328</font>
             </h1>
-            <h1 class="lead d-none d-sm-block">Total amount of investment :
+            <h1 class="lead">Total amount of investment :
               <font class="vision_count">$ 1,203,032</font>
             </h1>
           </div>
@@ -97,16 +102,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 text-center">
-          <i class="fa fa-battery-quarter mb-2"></i>
+          <img src="img/collective.png" alt="" class="mb-2" style="width:40%">
           <h3>Collective<br> Intelligence</h3>
 
         </div>
         <div class="col-md-4 text-center">
-          <i class="fa fa-battery-half mb-2"></i>
+          <img src="img/leverage.png" alt="" class="mb-2" style="width:40%">
           <h3>Leverage<br> Investment</h3>
-          <li class="icon_li">  </div>
+        </div>
         <div class="col-md-4 text-center">
-          <i class="fa fa-battery-full mb-2"></i>
+          <img src="img/prediction.png" alt="" class="mb-2" style="width:40%">
           <h3>Prediction<br>for cryptocurrency</h3>
         </div>
       </div>
@@ -146,7 +151,7 @@
               <div class="card-body">
                 <p class="card-text">
                   Make it just in one minute.</br>
-                  Deposit investment fund to your account.
+                  Deposit investment fund to your account
                 </p>
               </div>
             </div>
@@ -167,27 +172,39 @@
                 </p>
               </div>
             </div>
-        <hr>
+
       </div>
     </div>
   </section>
+
 
   <!-- Today's Vision -->
   <section id="today-vision-section" class="text-center">
     <div class="container">
-      <div class="row">
-          <div class="col-md-8">
-            Investment Info
-          </div>
-          <div class="col-md-4">
-            realtime Investment transaction
-          </div>
-
+      <hr>
+      <h1 class="mb-5">Today's Vision</h1>
+      <div class="mb-5">
+        <h5>End Time</h5>
+        <h3>03:21:02</h3>
       </div>
+      <div class="row">
+        <div class="col-md-4">
+            <h5>Vision Info</h5>
+            <img src="img/bitrex_icon.png" alt="" class="img-responsive" style="width:20%">
+
+        </div>
+        <div class="col-md-4">
+            <h5>Vision Status</h5>
+        </div>
+        <div class="col-md-4">
+            <h5>Total Investment</h5>
+        </div>
+      </div>
+
     </div>
   </section>
 
-  <footer id="main-footer" class="py-3 bg-primary text-white">
+  <footer id="main-footer" class="py-1 bg-primary text-white">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-6 ml-auto">
@@ -196,10 +213,10 @@
       </div>
     </div>
   </footer>
-
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/navbar-fixed.js"></script>
+
 </body>
 </html>
