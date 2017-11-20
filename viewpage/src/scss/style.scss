@@ -37,11 +37,46 @@ body{
   opacity: 0.8;
 }
 
+#news_summary{
+  background: #FFFF66;
+  position:fixed;
+  z-index: 1;
+  opacity: 0.8;
+  width: 100%;
+  font-size: 25px;
+
+  .frontgo{
+    text-align: center;
+
+  }
+  .row{
+        height: 80px;
+  }
+
+  .font_red{
+    color: red;
+  }
+
+  .font_blue{
+    color: blue;
+  }
+}
+
+#services{
+
+  padding-top: 120px;
+
+  .mlist2{
+    list-style: none;
+  }
+}
+
+
 #dummy{
   opacity: 0;
 }
 
-#slogan-section{
+#slogan{
   position:relative;
   background:url('../img/mountains.jpg');
   min-height:600px;
@@ -84,7 +119,7 @@ body{
     background-color: #ff6a89;
   }
   font{
-    font-size: 50px;
+    font-size: 30px;
     font-style: italic;
     color: yellow;
   }
@@ -93,6 +128,7 @@ body{
 
 #graph{
   position:relative;
+  height: 500px;
 
 
   .primary-overlay{
@@ -132,7 +168,7 @@ body{
     background-color: #ff6a89;
   }
   font{
-    font-size: 40px;
+    font-size: 30px;
     font-style: italic;
     color: yellow;
   }
@@ -140,7 +176,7 @@ body{
 
 
 
-#home-icons-section{
+#home-icons{
   .fa{
   font-size:55px;
 }
@@ -168,7 +204,7 @@ body{
     color: #fff; }
 
 
-#video-section{
+#home-heading{
   position:relative;
   min-height:200px;
   background:url('../img/lights.jpg');
@@ -181,7 +217,7 @@ body{
   }
 }
 
-#video-section a {
+#home-heading a {
   color: #fff;
   font-size: 55px;
 }
@@ -193,14 +229,24 @@ body{
 }
 
 
-#instruction-section{
+#instruction{
   .card{
     border: 0;
   }
 }
 
-#today-vision-section{
+#authors{
+  img{
+    margin-top:-40px;
+  }
 
+  .fa{
+    font-size:25px;
+  }
+
+  .text-quote{
+    font-size: 13px;
+  }
 
 
 }
