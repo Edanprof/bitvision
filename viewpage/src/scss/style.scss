@@ -37,46 +37,11 @@ body{
   opacity: 0.8;
 }
 
-#news_summary{
-  background: #FFFF66;
-  position:fixed;
-  z-index: 1;
-  opacity: 0.8;
-  width: 100%;
-  font-size: 25px;
-
-  .frontgo{
-    text-align: center;
-
-  }
-  .row{
-        height: 80px;
-  }
-
-  .font_red{
-    color: red;
-  }
-
-  .font_blue{
-    color: blue;
-  }
-}
-
-#services{
-
-  padding-top: 120px;
-
-  .mlist2{
-    list-style: none;
-  }
-}
-
-
 #dummy{
   opacity: 0;
 }
 
-#slogan{
+#slogan-section{
   position:relative;
   background:url('../img/mountains.jpg');
   min-height:600px;
