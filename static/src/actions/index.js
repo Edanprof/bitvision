@@ -2,19 +2,28 @@ import axios from 'axios';
 
 //News Actions
 export const FETCH_POSTS = 'fetch_posts'; // fetch news
+export const POS_POST = 'pos_post'; // vote plus on news
+export const NEG_POST = 'neg_post'; // vote minus on news
 
 //User Acitons
-export const CREATE_USER = 'create_user'; // Creaet user id(email, password)
+export const CREATE_USER = 'create_user'; // Create user id(email, password)
 export const FETCH_USER = 'fetch_user'; // Fetch User information(email, personal wallet)
 export const UPDATE_USER = 'update_user'; // Update user information(password,2-factor?, )
 export const DELETE_USER = 'delete_user'; // Request for delete user id
 
 //Investment Actions
+export const CREATE_VISION = 'make_vision'; // Create vision for room
+export const FETCH_VISION = 'fetch_vision'; // Fetch user's vision detail(vision_id, )
+export const FETCH_VISIONS = 'fetch_visions'; // Fetch list of vision in user's vision history
+export const DELETE_VISION = 'delete_vision'; // Cancel vision for room
 
-//Room Actions
+//Login Actions
+export const LOGIN_USER = 'login_user'; // user login action
+export const LOGOUT_USER = 'logout_user'; // user logout actions
+
+
 
 //Etc actions
-
 
 const ROOT_URL = 'API_SERVER_domain/api';
 const API_KEY = '?key=new123';
